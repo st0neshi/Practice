@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+}
+
+.container .gallery-area {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-area img {
+    size: cover;
+}
+
+.gallery-area input[type="button"] {
+    border-radius: 20px;
+    font-size: 1rem;
+}
